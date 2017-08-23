@@ -3,4 +3,3 @@ Homework, get commits.
 This is my homework for DGM 1660, and DGM 1600.
 For this homework, we are learning Git.
 
-I'm going to write this sentence, but then delete it.
