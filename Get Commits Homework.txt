@@ -1,1 +1,3 @@
 Homework, get commits.
+
+This is my homework for DGM 1660, and DGM 1600.
