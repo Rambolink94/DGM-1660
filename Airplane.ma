@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Airplane.ma
-//Last modified: Fri, Sep 15, 2017 01:26:08 AM
+//Last modified: Fri, Sep 15, 2017 01:28:45 AM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C7DDD6C8-4710-E4D4-276D-3582B43B575B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.6178247365450504 3.187471103762026 10.711892978720119 ;
-	setAttr ".r" -type "double3" -378.93835276903667 -3274.5999999903793 1.931973122969853e-015 ;
+	setAttr ".t" -type "double3" -1.5831382790944186 8.3022657210116435 8.5000148391541828 ;
+	setAttr ".r" -type "double3" -413.73835276903009 -3255.3999999902167 -8.2475102239508136e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "69E54F0C-47D5-52C0-788C-B09556732286";
 	setAttr -k off ".v" no;
