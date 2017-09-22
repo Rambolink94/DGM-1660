@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Robot Blocked Mirror.ma
-//Last modified: Thu, Sep 21, 2017 07:53:45 PM
+//Name: Robot Body Refined.ma
+//Last modified: Thu, Sep 21, 2017 07:54:17 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -4412,4 +4412,4 @@ connectAttr "R_WristShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "R_ClawMidShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "R_ClawRightShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "R_ClawLeftShape.iog" ":initialShadingGroup.dsm" -na;
-// End of Robot Blocked Mirror.ma
+// End of Robot Body Refined.ma
