@@ -1,6 +1,10 @@
 //Maya ASCII 2017 scene
 //Name: Robot Blocked Mirror.ma
+<<<<<<< Updated upstream
 //Last modified: Thu, Sep 21, 2017 07:53:45 PM
+=======
+//Last modified: Wed, Sep 20, 2017 10:58:47 AM
+>>>>>>> Stashed changes
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +17,22 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A45F97CE-4E4B-B9B4-D183-E5838C5D5E0C";
 	setAttr ".v" no;
+<<<<<<< Updated upstream
 	setAttr ".t" -type "double3" -1.9252139560191726 -0.48306739023430345 12.611057125511582 ;
 	setAttr ".r" -type "double3" 5.6616472697738551 -1448.1999999998393 -1.0041899440698377e-016 ;
+=======
+	setAttr ".t" -type "double3" 0.14751984421104092 0.37842865358987487 8.8667075281603474 ;
+	setAttr ".r" -type "double3" 0.86164727055996304 -364.59999999986348 -6.232095198338328e-018 ;
+>>>>>>> Stashed changes
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "60E63DAD-4914-A613-3060-309E553F0F7B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
+<<<<<<< Updated upstream
 	setAttr ".coi" 13.90421780506961;
+=======
+	setAttr ".coi" 9.0800051977476226;
+>>>>>>> Stashed changes
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
