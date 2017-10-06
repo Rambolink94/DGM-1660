@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Robot UV Complete V5.ma
-//Last modified: Fri, Oct 06, 2017 04:42:30 PM
+//Last modified: Fri, Oct 06, 2017 04:49:14 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A45F97CE-4E4B-B9B4-D183-E5838C5D5E0C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.51906594124163807 0.65355964265877964 6.4568936680914035 ;
-	setAttr ".r" -type "double3" 1074.8616472568674 355.39999999991608 2.4928380793361028e-017 ;
+	setAttr ".t" -type "double3" 0.11397889585960644 2.3386237764861675 5.3608720112868609 ;
+	setAttr ".r" -type "double3" 1057.4616472565142 719.3999999999528 2.4849445959822586e-017 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "60E63DAD-4914-A613-3060-309E553F0F7B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 6.5038964139210895;
+	setAttr ".coi" 3.9324269960230755;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
